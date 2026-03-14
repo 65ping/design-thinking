@@ -32,12 +32,12 @@ This skill turns Claude into a Design Thinking coach, facilitator, and artifact 
 ```
 "I need to plan empathy interviews for a mobile banking redesign"
 "Help me synthesize these research notes into a problem statement"
-"We're running a 90-minute remote ideation session — what method should we use?"
-"I'm a founder — how do I validate my idea before I build anything?"
-"We're redesigning a healthcare service — where do we start?"
+"We're running a 90-minute remote ideation session, what method should we use?"
+"I'm a founder, how do I validate my idea before I build anything?"
+"We're redesigning a healthcare service, where do we start?"
 ```
 
-Claude responds with structured guidance, ready-to-use artifacts, facilitation scripts, or design critique — all grounded in the methodology.
+Claude responds with structured guidance, ready-to-use artifacts, facilitation scripts, or design critique, all grounded in the methodology.
 
 ---
 
@@ -178,23 +178,11 @@ Claude returns a complete session agenda with timing, materials list, facilitati
 
 Every design decision balances three questions (IDEO):
 
-- **Desirability** — Do people want this? Does it fit their lives and actual needs?
-- **Feasibility** — Can it be built? What does technology currently allow?
-- **Viability** — Is it sustainable? Does it make economic and organizational sense?
+- **Desirability**  Do people want this? Does it fit their lives and actual needs?
+- **Feasibility**  Can it be built? What does technology currently allow?
+- **Viability**  Is it sustainable? Does it make economic and organizational sense?
 
 Strong design lives at the intersection of all three.
-
----
-
-## Sources
-
-This skill was built from five authoritative sources on Design Thinking methodology:
-
-- [IDEO Design Thinking](https://designthinking.ideo.com/)
-- [Nielsen Norman Group — Design Thinking 101](https://www.nngroup.com/articles/design-thinking/)
-- [Interaction Design Foundation — 5 Stages](https://ixdf.org/literature/article/5-stages-in-the-design-thinking-process)
-- [Voltage Control — Step-by-Step Guide](https://voltagecontrol.com/blog/5-steps-of-the-design-thinking-process-a-step-by-step-guide/)
-- [Asana — Design Thinking Process](https://asana.com/resources/design-thinking-process)
 
 ---
 
