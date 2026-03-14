@@ -9,7 +9,7 @@
 # Design Thinking
 ### A Claude Code Skill
 
-**Human-centered design methodology — from user research to shipped solution.**
+**Human-centered design methodology, from user research to shipped solution.**
 Built for product designers, UX researchers, service designers, entrepreneurs, and business leaders.
 
 <br/>
