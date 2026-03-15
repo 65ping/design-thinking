@@ -46,10 +46,10 @@ If you are unsure which phase you are in, describe your situation and Claude wil
 
 ## The Design Thinking Framework
 
-Design Thinking is a non-linear, human-centered approach to problem-solving. It was developed
-by IDEO and formalized by the Nielsen Norman Group, the Interaction Design Foundation, and
-Stanford's d.school. It is not a checklist — it is a flexible scaffold for keeping teams
-oriented around real human needs at every stage of the work.
+Design Thinking is a non-linear, human-centered approach to problem-solving. It is a proven
+framework for keeping human needs at the center of every decision — from the first user
+conversation to the final shipped solution. It is not a checklist — it is a flexible scaffold
+for keeping teams oriented around real human needs at every stage of the work.
 
 ### The Six Phases
 
@@ -62,7 +62,7 @@ oriented around real human needs at every stage of the work.
 | **Test** | Does this work for real people? | Validated insights, iteration priorities |
 | **Implement** | How do we get this to users? | Shipped solution, adoption plan |
 
-### The Three Lenses (IDEO)
+### The Three Lenses
 
 Every design decision should balance:
 
@@ -533,8 +533,8 @@ Severity classification:
 
 ### Purpose
 Ensure the solution actually reaches users. Implementation is the most frequently omitted
-phase of Design Thinking. As NNG notes: "Design thinking does not free you from the actual
-design doing." A solution that is never shipped has no impact.
+phase of Design Thinking. A solution that exists only as a file has no impact on anyone.
+The methodology ends when the solution reaches real people — not when the work is handed off.
 
 ### When You Are Here
 - You have a validated concept ready for development
@@ -715,7 +715,7 @@ When using Design Thinking for business model questions:
 - Feasibility: What capabilities does the organization currently have that could deliver this?
 - Viability: What business model makes delivering this sustainable?
 
-Use IDEO's Venn diagram as the starting point for any strategy session — the innovation opportunity lives at the intersection.
+Use the three-lens framework as the starting point for any strategy session — the strongest innovation opportunities live at the intersection of all three.
 
 **Common executive failure modes**
 

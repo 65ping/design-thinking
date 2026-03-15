@@ -106,7 +106,7 @@ Executives running innovation workshops, redesigning services, and reframing bus
 design-thinking/
 │
 ├── SKILL.md                      ← Main skill file (auto-loaded by Claude Code)
-│   ├── Methodology foundation    ← 6-phase overview, IDEO 3 lenses, designer's mindset
+│   ├── Methodology foundation    ← 6-phase overview, three lenses, designer's mindset
 │   ├── Stage 1: Empathize        ← Interviews, observation, empathy maps
 │   ├── Stage 2: Define           ← Affinity diagramming, POV statements, HMW questions
 │   ├── Stage 3: Ideate           ← Brainstorming, SCAMPER, Brainwrite, convergence
@@ -176,7 +176,7 @@ Claude returns a complete session agenda with timing, materials list, facilitati
 
 ## The Three Lenses
 
-Every design decision balances three questions (IDEO):
+Every design decision balances three questions:
 
 - **Desirability**  Do people want this? Does it fit their lives and actual needs?
 - **Feasibility**  Can it be built? What does technology currently allow?
