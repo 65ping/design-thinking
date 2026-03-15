@@ -22,8 +22,26 @@ Built for product designers, UX researchers, service designers, entrepreneurs, a
 <br/>
 
 </div>
-
 ---
+
+## Install
+
+**Add to an existing Claude Code project:**
+
+```bash
+# Clone into your project's .claude/skills directory
+git clone https://github.com/65ping/design-thinking.git .claude/skills/design-thinking
+```
+
+**Or install globally** (available across all your projects):
+
+```bash
+git clone https://github.com/65ping/design-thinking.git ~/.claude/skills/design-thinking
+```
+
+Claude Code will detect the skill automatically. No configuration needed.
+---
+
 
 ## What It Does
 
@@ -54,24 +72,6 @@ Claude responds with structured guidance, ready-to-use artifacts, facilitation s
 
 > The process is non-linear by design. Looping back is not failure — it is the methodology working as intended.
 
----
-
-## Install
-
-**Add to an existing Claude Code project:**
-
-```bash
-# Clone into your project's .claude/skills directory
-git clone https://github.com/65ping/design-thinking.git .claude/skills/design-thinking
-```
-
-**Or install globally** (available across all your projects):
-
-```bash
-git clone https://github.com/65ping/design-thinking.git ~/.claude/skills/design-thinking
-```
-
-Claude Code will detect the skill automatically. No configuration needed.
 
 ---
 
