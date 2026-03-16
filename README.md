@@ -150,27 +150,169 @@ design-thinking/
 
 ---
 
-## Example Outputs
+## Prompt Examples
 
-**Phase planning:**
-> "We're starting a new mobile app project with no prior research. What should we do in the first two weeks?"
+The most effective way to use this skill is to describe what phase you're in and what you need. Claude handles the rest.
 
-Claude returns a structured Empathize + Define plan — methods, timing, participant recruitment criteria, outputs, and warning signs that you're shortcutting.
+---
 
-**Artifact generation:**
-> "Write a POV statement for a nurse managing medication handoffs between shifts."
+### Simple — Single artifact or phase
 
-Claude returns a filled example, a blank template, and an annotation of what makes the statement strong or weak.
+**Generate an empathy map:**
+```
+Write an empathy map for a first-time homebuyer
+going through the mortgage application process.
+```
+→ Claude returns a filled Do / Say / Think / Feel grid with observations, inferred beliefs, emotional texture, and workarounds.
 
-**Design critique:**
-> "Here's our design brief [paste]. We're about to start building."
+**Write a POV statement:**
+```
+Write a POV statement for a nurse managing
+medication handoffs between shifts at a busy hospital.
+```
+→ Claude returns a filled example, a blank template, and an annotation of what makes it strong or weak.
 
-Claude identifies which phase the team is in, flags assumptions that should be tested first, checks for phase-skipping, and gives specific recommendations.
+**Generate HMW questions:**
+```
+Here's my POV statement:
+"A part-time caregiver needs to confirm her mother's medication
+was taken remotely because the phone-call system creates daily
+anxiety she cannot resolve."
+Give me 10 How Might We questions for ideation.
+```
+→ Claude returns a prioritized list at the right scope — not too narrow (solution-prescribing), not too broad (useless).
 
-**Facilitation planning:**
-> "We have 6 stakeholders and 3 hours. We need to align on the problem before ideating."
+**Choose prototype fidelity:**
+```
+We want to test whether users understand our new onboarding
+flow before we build it. What kind of prototype should we make?
+```
+→ Claude recommends the lowest-cost prototype that tests the right assumption, with a brief explaining what to build and what to exclude.
 
-Claude returns a complete session agenda with timing, materials list, facilitation instructions per activity, and a plan for when it stalls.
+**Prepare a test script:**
+```
+I'm running a usability test on a checkout redesign tomorrow
+with 5 participants. Write me a test script with 3 tasks,
+the right scenario framing, and the facilitator prompts to use
+when someone gets stuck.
+```
+→ Claude returns a ready-to-run script with welcome, warm-up, tasks, probing questions, and a debrief structure.
+
+**Evaluate a problem statement:**
+```
+Is this a good problem statement?
+"Users need a better dashboard because the current one is confusing."
+```
+→ Claude diagnoses whether it's human-centered, solution-adjacent, or too vague — and rewrites it correctly.
+
+---
+
+### Intermediate — Multi-step or role-specific
+
+**Synthesize research into a problem statement:**
+```
+I interviewed 6 remote caregivers about managing elderly
+parents' medications. Here are my notes: [paste notes].
+Help me run an affinity diagram and write a POV statement
+from what I found.
+```
+→ Claude clusters observations into named themes, identifies tensions, and produces a POV statement grounded in the data.
+
+**Plan an ideation session:**
+```
+We have 8 people, 90 minutes, and this HMW question:
+"HMW help remote caregivers confirm medication was taken
+without burdening the patient?"
+Design the full session — methods, timing, warm-up,
+and how we converge at the end.
+```
+→ Claude returns a complete agenda with facilitation instructions, materials list, a warm-up activity, brainstorm rounds, and a structured convergence method.
+
+**Critique a brief before building:**
+```
+Here's our design brief: [paste].
+We're about to start wireframing next week.
+What assumptions are we making that we haven't tested yet?
+```
+→ Claude identifies phase-skipping risks, untested hypotheses, and the minimum research needed before wireframing is justified.
+
+**Decide iterate vs. ship:**
+```
+We ran 5 usability tests on our prototype. Here's what we found:
+[paste findings].
+Should we iterate or move to implementation?
+```
+→ Claude applies the severity framework (critical / moderate / minor) and returns a clear decision with rationale.
+
+**Adapt for a tight deadline:**
+```
+We have one week before presenting a direction to leadership.
+We haven't spoken to any users yet. What's the minimum viable
+Design Thinking process we should run in 5 days?
+```
+→ Claude returns a compressed day-by-day plan — which phases to abbreviate, which to protect, and what to skip at your own risk.
+
+---
+
+### Complex — Full project or workshop
+
+**Startup: validate before building anything**
+```
+I'm a founder. My hypothesis: busy parents of school-age kids
+forget to give their children daily medication, and it causes
+anxiety and real health risk. I want to build a mobile app.
+
+Before I write a single line of code or design a single screen,
+walk me through how to validate this properly — who to talk to,
+what to ask, what I'm trying to prove or disprove, and what I
+need to know before I'm justified in building anything.
+```
+→ Claude returns a complete pre-build validation plan: problem interview guide, recruiting criteria, what "validated" looks like, and what disconfirms the hypothesis.
+
+**Service designer: redesign from zero research**
+```
+I'm a service designer at a regional hospital. We've been asked
+to reduce patient no-shows for outpatient appointments —
+currently running at 22%. We have no prior research on why
+patients don't show up.
+
+I have 3 weeks and access to patients, frontline staff,
+and scheduling data. Walk me through the full process:
+who to talk to, what to observe, how to synthesize findings,
+and how to frame a problem statement that leads to a real
+solution — not just a reminder notification.
+```
+→ Claude maps the full 3-week process across all actors (not just patients), flags the most common assumption traps in no-show research, and produces a research plan with a synthesis workshop structure.
+
+**Design sprint: one day, cross-functional team**
+```
+I'm running a design sprint with 7 people:
+2 engineers, 2 designers, 1 PM, 1 customer success, 1 exec sponsor.
+We have one full day.
+
+Our HMW question:
+"HMW make it easier for freelancers to follow up on overdue
+invoices without damaging the client relationship?"
+
+Give me the full day agenda — what we do each hour, what methods
+we use, what materials we need, how we handle the exec in the room,
+and what we should have produced by end of day.
+```
+→ Claude returns an hour-by-hour agenda with facilitation notes, a strategy for preventing the exec from collapsing ideation early, and a clear end-of-day output definition.
+
+**Executive workshop: reframe before committing**
+```
+I'm facilitating a half-day innovation session for 12 executives
+at a retail bank. The brief is to "improve the mortgage experience."
+The problem: leadership already thinks the answer is a better app.
+
+My job is to help them see the full picture before they commit.
+Design the session — how I open it, how I build empathy without
+them dismissing it, how I get them to a human-centered problem
+statement, and how I protect the ideation phase from their
+authority narrowing the options too early.
+```
+→ Claude designs the full workshop with an empathy-building opener that works with executives, a reframing exercise that surfaces the human problem behind the business brief, and facilitation moves for managing authority in ideation.
 
 ---
 
